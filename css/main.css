@@ -148,6 +148,7 @@ main {
     padding: 0.5rem 1rem;
   }
 }
+
 @media (min-width: 1025px) {
   .search-entry__form {
     width: 60vw;
@@ -321,14 +322,19 @@ button:where(:hover, :focus) i {
 footer {
   height: 60px;
   text-align: center;
-  p {
-    color: var(--stats-color);
-    font-size: 0.5rem;
-    @media (min-width: 768px) {
-      font-size: 1rem;
-    }
-    a {
-      color: var(--stats-color);
-    }
+}
+
+footer p {
+  color: var(--stats-color);
+  font-size: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  footer p {
+    font-size: 1rem;
   }
+}
+
+p a {
+  color: var(--stats-color);
 }
