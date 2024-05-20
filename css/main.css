@@ -219,6 +219,7 @@ button:where(:hover, :focus) i {
     width: 75vw;
   }
 }
+
 @media (min-width: 1025px) {
   .results {
     width: 55vw;
@@ -287,6 +288,7 @@ button:where(:hover, :focus) i {
 
 .result-title a:hover {
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .result-title a:focus {
@@ -337,4 +339,5 @@ footer p {
 
 p a {
   color: var(--stats-color);
+  text-underline-offset: 5px;
 }
