@@ -98,7 +98,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 45px);
 }
 
 .search-entry {
@@ -322,7 +322,7 @@ button:where(:hover, :focus) i {
 
 /* Footer Section */
 footer {
-  height: 60px;
+  height: 45px;
   text-align: center;
 }
 
